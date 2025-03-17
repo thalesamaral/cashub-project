@@ -7,12 +7,12 @@ export const getDashboard = async (month: string) => {
     const userId = 'FUTURE-ID'
     
     if (!userId) {
-      throw new Error("Unauthorized");
+        throw new Error("Unauthorized");
     }
     const where = {
         date: {
-            gte: new Date(`2024-${month}-01`),
-            lt: new Date(`2024-${month}-31`),
+            gte: new Date(`2025-${month}-01`),
+            lt: new Date(`2025-${month}-31`),
         },
     };
 

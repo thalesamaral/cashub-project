@@ -5,14 +5,14 @@
 ### TODO List 
 
 - [X] Copy dashboard
+- [X] Fix color theme
 - [ ] Enable authentication with AuthJS
 - [ ] Protect routers and filtering by `userId`
 - [ ] Filter transaction by date into `transaction-datatable`
-- [ ] Fix color theme
 
-## Setup
+### Setup
 
-- inicializei o projeto com o `npm install`
-- configurei o arquivo `.env` apontando para o PostgreSQL local
-- executei o banco com o comando `npx prisma migrate dev`
-- iniciei a aplicacao com o comando `npm run dev`
+- inicialize o projeto com o `npm install`
+- adicione o arquivo `.env` apontando para o PostgreSQL local
+- execute o banco com o comando `npx prisma migrate dev`
+- inicie a aplicacao com o comando `npm run dev`

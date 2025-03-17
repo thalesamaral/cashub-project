@@ -6,10 +6,10 @@ export function LogoGrid() {
         <div className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-xl mx-auto text-center">
-                    <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                    <h3 className="text-gray-200 text-3xl font-semibold sm:text-4xl">
                         Tecnologias utilizadas
                     </h3>
-                    <p className="text-gray-600 mt-3">
+                    <p className="text-gray-400 mt-3">
                         O <span className="text-green-500">Cashub</span> utiliza de tecnologias e open-source em sua implementação.
                     </p>
                 </div>

@@ -29,7 +29,7 @@ export function Footer() {
 
     return (
         <footer className="w-full">
-            <div className=" mx-auto px-4 text-gray-600 md:px-8">
+            <div className=" mx-auto px-4 text-gray-400 md:px-8">
                 <div className="justify-between sm:flex">
                     <div className="space-y-6">
                         <img src="/logo.svg" className="w-32" />
@@ -43,7 +43,7 @@ export function Footer() {
                                         className="space-y-4"
                                         key={idx}
                                     >
-                                        <h4 className="text-gray-800 font-medium">
+                                        <h4 className="text-green-600 font-medium">
                                             {item.label}
                                         </h4>
                                         {
@@ -79,7 +79,7 @@ export function Footer() {
                                 <Button
                                     variant="primary"
                                 >
-                                    Receber novidadades
+                                    Receber novidades
                                 </Button>
                             </div>
                         </form>

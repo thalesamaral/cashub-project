@@ -10,14 +10,14 @@ export default function LoginPage() {
                     src="/logo.svg"
                     width={173}
                     height={39}
-                    alt="Finance AI"
+                    alt="cashub"
                     className="mb-8"
                 />
                 <h1 className="mb-3 text-4xl font-bold">Bem-vindo</h1>
                 <p className="mb-8 text-muted-foreground">
-                    A Finance AI é uma plataforma de gestão financeira que utiliza IA para
-                    monitorar suas movimentações, e oferecer insights personalizados,
-                    facilitando o controle do seu orçamento.
+                    A Cashub é uma plataforma de gestão financeira que utiliza
+                    IA para monitorar suas movimentações, e oferecer insights
+                    personalizados, facilitando o controle do seu orçamento.
                 </p>
                 <Button variant="outline">
                     <LogInIcon className="mr-2" />
@@ -34,4 +34,4 @@ export default function LoginPage() {
             </div>
         </div>
     );
-};
+}

@@ -21,7 +21,7 @@ export function FeaturesSection()  {
 
     return (
         <section className="py-14">
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-16 justify-between md:px-8 lg:flex">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-400 gap-16 justify-between md:px-8 lg:flex">
                 <div className="mt-12 lg:mt-0 flex items-center">
                     <img src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png" className="w-full shadow-lg rounded-lg border" />
                 </div>
@@ -30,11 +30,11 @@ export function FeaturesSection()  {
                         <h3 className="text-green-600 font-semibold">
                             Features
                         </h3>
-                        <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                            Organização sua finanças de forma simplificada!
+                        <p className="text-gray-200 text-3xl font-semibold sm:text-4xl">
+                            Organização de suas finanças de forma simplificada!
                         </p>
                         <p>
-                            Pensado para te ajudar na sua organização finaceira o <span className="text-green-500 font-bold">Cashub</span> auxilia a gerenciar, analisar e planejar seu orçamento.
+                            Pensado para te ajudar na sua organização financeira o <span className="text-green-500 font-bold">Cashub</span> auxilia a gerenciar, analisar e planejar seu orçamento.
                         </p>
                     </div>
                     <div className="mt-12 max-w-lg lg:max-w-none">
@@ -46,7 +46,7 @@ export function FeaturesSection()  {
                                             {item.icon}
                                         </div>
                                         <div>
-                                            <h4 className="text-lg text-gray-800 font-semibold">
+                                            <h4 className="text-lg text-gray-300 font-semibold">
                                                 {item.title}
                                             </h4>
                                             <p className="mt-3">
